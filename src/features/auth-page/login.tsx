@@ -22,18 +22,16 @@ export const LogIn: FC<LoginProps> = (props) => {
       <CardHeader className="gap-2">
         <CardTitle className="text-2xl flex gap-2">
           <Avatar className="">
-            <AvatarImage src={"sky-favicon.png"} />
+            <AvatarImage src={"sky-login.png"} />
           </Avatar>
          </CardTitle>
         <span className="text-primary text-center">{AI_NAME}</span>
       </CardHeader>
       <CardContent className="grid gap-4">
-         <CardDescription className="text-center">
-          Login in with your Sky Account
-        </CardDescription>
+       
         
 {/*         <Button onClick={() => signIn("github")}>GitHub</Button> */}
-        <Button onClick={() => signIn("azure-ad")}> Microsoft 365</Button>
+        <Button onClick={() => signIn("azure-ad")}>  Sky Solutions SSO </Button>
         {props.isDevMode ? (
           <Button onClick={() => signIn("localdev")}>
             Basic Auth (DEV ONLY)
