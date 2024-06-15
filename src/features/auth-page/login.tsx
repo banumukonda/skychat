@@ -29,7 +29,7 @@ export const LogIn: FC<LoginProps> = (props) => {
        
       </CardHeader>
       <CardContent className="grid gap-4">
-         <CardDescription>
+         <CardDescription className="text-center">
           Login in with your Sky Account
         </CardDescription>
         
