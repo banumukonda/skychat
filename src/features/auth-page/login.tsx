@@ -22,12 +22,14 @@ export const LogIn: FC<LoginProps> = (props) => {
       <CardHeader className="gap-2">
         <CardTitle className="text-2xl flex gap-2">
           <Avatar className="h-8">
-            <AvatarImage src={"sky-logo.png"} />
+            <AvatarImage className="text-center" src={"sky-logo.png"} />
           </Avatar>
-          <span className="text-primary">{AI_NAME}</span>
+          
         </CardTitle>
        
       </CardHeader>
+      <span className="text-primary">{AI_NAME}</span>
+      <br>
       <CardContent className="grid gap-4">
          <CardDescription className="text-center">
           Login in with your Sky Account
