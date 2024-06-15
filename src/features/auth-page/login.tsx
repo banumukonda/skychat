@@ -26,11 +26,13 @@ export const LogIn: FC<LoginProps> = (props) => {
           </Avatar>
           <span className="text-primary">{AI_NAME}</span>
         </CardTitle>
-        <CardDescription>
-          Login in with your Sky Account
-        </CardDescription>
+       
       </CardHeader>
       <CardContent className="grid gap-4">
+         <CardDescription>
+          Login in with your Sky Account
+        </CardDescription>
+        
 {/*         <Button onClick={() => signIn("github")}>GitHub</Button> */}
         <Button onClick={() => signIn("azure-ad")}> Microsoft 365</Button>
         {props.isDevMode ? (
